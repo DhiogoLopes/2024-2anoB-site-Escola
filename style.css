@@ -1,0 +1,11 @@
+*{
+   margim: 0;
+   padding: 0;
+}
+
+.cabecalho{
+    background-color: #231a5b;
+    color: white;
+    display: flex;
+    
+}
