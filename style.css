@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Oswald&display=swap');
+
 *{
    margim: 0;
    padding: 0;
 }
 
 :root{
+    --vermelho:#d62828;
+    --branco: #f2f2f2;
     --azul-escuro: #231a5b;
-    --braco: #f5f5f5;
+    --braco-smoke: #f5f5f5;
+    --fonte-titulo:"Angkor", serif;
+    --fonte-texto: "Oswald", sans-serif;
 }
 
 .cabecalho{
-    background-color: #231a5b;
-    color: white;
+    background-color: var(--azul-escuro);
+    color: var(--vermelho);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,22 +32,24 @@
 
 .cabecalho-lista-link{
     text-decoration: none;
-    color: white;
+    color: var(--branco-smoke);
     margin-right: 1.5em;
     font-size: 1.5em;
 }
 
 .escola{
-    background-color: #f5f5f5;
+    background-color: var(--braco-smoke);
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 32px 0;
+    font-family: var(--fonte-texto);
 }
 
 .escola-texto-titulo{
     padding: 24px 0;
+    font-family: var(--fonte-titulo);
 }
 
 .escola-imagem{
